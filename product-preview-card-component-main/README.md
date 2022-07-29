@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://github.com/ANYURU/frontendmentorchallenges/tree/main/product-preview-card-component-main)
-- Live Site URL: [here](https://elaborate-frangipane-bb2289.netlify.app/)
+- Live Site URL: [here](https://voluble-trifle-f92a2f.netlify.app)
 
 ## My process
 

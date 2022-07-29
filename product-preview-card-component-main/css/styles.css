@@ -113,7 +113,7 @@ h1 {
         width: 40vw;
         height: 50vh;
         flex-direction: row;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     h1 {
