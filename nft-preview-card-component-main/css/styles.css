@@ -4,8 +4,90 @@
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    bottom: 10px;
+    position: absolute;
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    /* debugging */
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    height: 80%;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.equilibrium {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.text-white {
+    color: hsl(0, 0%, 100%);
+}
+
+hr {
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.text-soft-blue {
+    color: hsl(215, 51%, 70%);
+}
+
+.text-cyan {
+    color:  hsl(178, 100%, 50%);
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+    border: solid white 1px;
+}
+
+.equilibrium-par {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.view {
+    position: absolute;
+
 }
