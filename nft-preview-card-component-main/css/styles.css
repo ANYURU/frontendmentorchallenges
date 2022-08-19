@@ -1,4 +1,13 @@
-
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --font-size: 18px;
+    --font: 'Outfit', sans-serif;
+}
 
 /* Attribution styles. */
 .attribution { 
@@ -13,23 +22,31 @@
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(217, 54%, 11%);
+    font-family: var(--font);
+    background-color: var(--main-bg);
+    font-weight: 300;
 }
 
-.container {
-    /* debugging */
+.main-container {
     padding: 20px;
     border-radius: 15px;
     width: 80%;
     height: 80%;
-    background-color: hsl(216, 50%, 16%);
+    background-color: var(--card-bg);
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .equilibrium {
@@ -38,15 +55,15 @@ body {
 }
 
 .text-white {
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
 }
 
 hr {
-    height: 1px;
-    background-color: hsl(215, 32%, 27%);
+    width: 1px;
+    background-color: var(--line);
     border: none;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .middle {
@@ -59,21 +76,38 @@ hr {
     display: flex;
     align-items: center;
     gap: 5px;
+
 }
 
 .text-soft-blue {
-    color: hsl(215, 51%, 70%);
+    color: var(--soft-blue);
 }
 
 .text-cyan {
-    color:  hsl(178, 100%, 50%);
+    color:  var(--cyan);
+    font-weight: 400;
 }
 
 .bottom {
     display: flex;
     align-items: center;
     gap: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: solid 1px;
+    border-color: var(--line);
 }
+
+.heading {
+    font-family: outfit;
+    margin-top: 5;
+    margin-bottom: 5px;
+    font-weight: 600;
+    padding: 0;
+}
+
+
+
 .avatar {
     width: 40px;
     border-radius: 50%;
@@ -89,5 +123,10 @@ hr {
 
 .view {
     position: absolute;
-
+    display: none;
 }
+
+.equilibrium-par:hover .view {
+    display: inline;
+}
+
