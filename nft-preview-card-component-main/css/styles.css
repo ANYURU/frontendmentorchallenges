@@ -52,8 +52,8 @@ body {
     flex-direction: column;
     padding: 20px;
     border-radius: 15px;
-    width: 85%;
-    height: 80%;
+    width: 325px;
+    height: 500px;
     background-color: var(--card-bg);
 }
 
@@ -176,7 +176,8 @@ body {
 }
 
 .seller:hover {
-    color: var(--cyan)
+    color: var(--cyan);
+    cursor: pointer;
 }
 
 @media (min-width: 380px) and (max-width: 1440px){
