@@ -33,10 +33,15 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Check it out here ](https://github.com/ANYURU/frontendmentorchallenges/tree/main/nft-preview-card-component-main)
+- Live Site URL: [Check it out here ](https://quiet-maamoul-ea44ea.netlify.app)
 
 ## My process
+- Build Structure.
+- Add the fonts. 
+- Style the components.
+- Host it. 
+- Document the process.
 
 ### Built with
 
